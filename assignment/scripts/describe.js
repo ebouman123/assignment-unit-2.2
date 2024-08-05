@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-//
-//
+// We create a variable called name and set the value to 'Dane'
+// We check if 'Dane' is the same string as 'Mary'
+// If so, we console.log 'Hi, Mary!'
+// If not, we console.log 'How do you do?'
 //
 //
 //
@@ -48,10 +48,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called secret and do not set a value
+// We create a variable called code and set its value to 123
+// If code is equal to 123, we set the value of secret to 'super' and set the value of code to code * 2
+// If code is greater than 250 we set the value of secret to 'duper'
+// We console.log secret to read 'super'
 
 //CODE
 /*
@@ -73,10 +74,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called isStudent and set its value to true
+// We create a variable named age and set its value to 34
+// We create a variable named zip and set its value to 55407
+// If isStudent is true, and zip is greater than 80000, we console.log('You're a student on the West Coast!')
+// If isStudent is false, or age is less than 30, we console.log('What are your hobbies?')
+// If isStudent is true, and zip is <= 80000, we console.log('Welcome to Prime!')
+// If isStudent is false, and age is >= 30, we console.log('How about the weather?')
 
 //CODE
 /*
@@ -134,11 +138,17 @@ if (number >= 2) {
 
 /*
 let colorOne = 'red';
+//colorOne should be set to blue
+//let colorOne = 'blue';
 let colorTwo = 'blue';
+//colorTwo should be set to red
+//let colorOne = 'red';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  //need to set colorTwo to purple as well
+  //colorTwo = 'purple';
 }
 */
 
@@ -149,10 +159,13 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
+//should be a variable, not a constant
+//let time = 4;
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+//that would be an or statement, should be using && instead of ||
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -162,11 +175,17 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+//should be a variable instead of a constant
+//let minAge = 21;
 
 if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
 }
+//backwards, should be if(age >= minAge) {
+//console.log('enter'); }
+//else {
+//console.log('no entry'); }
 */
 
