@@ -27,7 +27,7 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // We create a variable called name and set the value to 'Dane'
-// We check if 'Dane' is the same string as 'Mary'
+// We check if name is the same string as 'Mary'
 // If so, we console.log 'Hi, Mary!'
 // If not, we console.log 'How do you do?'
 //
@@ -75,12 +75,12 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 // We create a variable called isStudent and set its value to true
-// We create a variable named age and set its value to 34
-// We create a variable named zip and set its value to 55407
+// We create a variable called age and set its value to 34
+// We create a variable called zip and set its value to 55407
 // If isStudent is true, and zip is greater than 80000, we console.log('You're a student on the West Coast!')
 // If isStudent is false, or age is less than 30, we console.log('What are your hobbies?')
 // If isStudent is true, and zip is <= 80000, we console.log('Welcome to Prime!')
-// If isStudent is false, and age is >= 30, we console.log('How about the weather?')
+// The last else statement would never run based on the conditional logic
 
 //CODE
 /*
@@ -166,6 +166,7 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 //that would be an or statement, should be using && instead of ||
+//if (temp > 39 && time >= 4) {
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -183,6 +184,7 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
+
 //backwards, should be if(age >= minAge) {
 //console.log('enter'); }
 //else {
