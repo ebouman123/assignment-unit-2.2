@@ -79,7 +79,7 @@ console.log(secret)
 // We create a variable called zip and set its value to 55407
 // If isStudent is true, and zip is greater than 80000, we console.log('You're a student on the West Coast!')
 // If isStudent is false, or age is less than 30, we console.log('What are your hobbies?')
-// If isStudent is true, and zip is <= 80000, we console.log('Welcome to Prime!')
+// If isStudent is true we console.log('Welcome to Prime!')
 // The last else statement would never run based on the conditional logic
 
 //CODE
@@ -185,7 +185,8 @@ if(minAge <= age) {
   console.log('enter');
 }
 
-//backwards, should be if(age >= minAge) {
+//backwards, should be 
+//if(age >= minAge) {
 //console.log('enter'); }
 //else {
 //console.log('no entry'); }
